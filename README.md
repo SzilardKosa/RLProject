@@ -1,5 +1,5 @@
 # RLProject
-This Github repository was created to document the progress with our reinforcement learning solution for the Duckietown competition.
+This Github repository was created to document the progress with my reinforcement learning solution for the Duckietown competition.
 ## Schedule
 - [x] Creating summary about Duckietown
 - [x] Setting up the environment for Duckietown
@@ -10,7 +10,7 @@ This Github repository was created to document the progress with our reinforceme
 ## How to set up everything for Duckietown
 Here is a summary on how to set up everything for duckietown. This summary is based on the [duckietown documentation](https://docs.duckietown.org/DT19/AIDO/out/manual.html). They also have an [interactive tutorials](https://www.duckietown.org/research/ai-driving-olympics/get-started) on their website, where they go through these steps.
 
-### Accounts needed
+### 1.Step Creating accounts
 1. **Docker Hub account**\
 This account is necessary to submit container images. Take note of your USERNAME.
 Create an account [here](https://hub.docker.com/).
@@ -19,7 +19,7 @@ Create an account [here](https://hub.docker.com/).
 This account is necessary to interact with the challenges server.
 Create an account [here](https://www.duckietown.org/research/ai-driving-olympics/ai-do-register).
 
-### Software requirements
+### 2.Step Software requirements
 1. **Supported platforms**
     1. *Ubuntu 16*\
 Ubuntu 16 is the best supported environment.
@@ -34,7 +34,7 @@ OS X is well supported; however there are no instructions for certain steps. The
 
 
 2. **Docker**\
-To install Docker on Ubuntu follow these [instuctions](https://docs.docker.com/install/linux/docker-ce/ubuntu/). The installation process should look like [this](https://www.youtube.com/watch?v=i3BxQlNEhuk). (You can istall Docker for Mac OS X from the same website.)
+To install Docker on Ubuntu follow these [instuctions](https://docs.docker.com/install/linux/docker-ce/ubuntu/). The installation process should look like [this](https://www.youtube.com/watch?v=i3BxQlNEhuk). (You can install Docker for Mac OS X from the same website.)
 
 3. **Git**\
 You probably already have Git. But to check whether or not you have git installed, simply open a terminal window and type "git --version". If you don't have it installed then follow these [instructions](https://www.liquidweb.com/kb/install-git-ubuntu-16-04-lts/) to install it for Ubuntu.
@@ -60,12 +60,12 @@ $ dts challenges info
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Docker Hub information*\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set your Docker Hub username using:
 <pre>
-$ dts challenges config --docker-username <USERNAME>
+$ dts challenges config --docker-username &lt;USERNAME&gt;
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login to Docker Hub:
 <pre>
 $ docker login
 </pre>
 
-### How to check whether the installation was successful?
+### 3. Step How to check whether the installation was successful?
 I would suggest you to create your first submission to make sure everything is set up properly. For this duckietown has a dummy submission that is outside the competitions. Follow the [instractions](https://docs.duckietown.org/DT19/AIDO/out/cm_first.html) to submit.
