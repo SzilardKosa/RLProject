@@ -29,8 +29,8 @@ The reason it’s not the first is that sometimes there is some confusion regard
     3. *Mac OS X*\
 OS X is well supported; however there are no instructions for certain steps. There is so much divergence in how OS X environments are configured.
 
-> **Note: If you are a Windows 10 user and have never installed Linux before, it might be a bit challenging task. For me installing Linux next to Windows 10 the steps on this [link](https://askubuntu.com/questions/726972/dual-boot-windows-10-and-linux-ubuntu-on-separate-hard-drives
-) did the trick. This was one of the most clearest explanation on this topic, that i could find.**
+> **Note: If you are a Windows 10 user and have never installed Linux before, it might be a bit challenging task. To install Linux next to Windows 10 the steps on this [link](https://askubuntu.com/questions/726972/dual-boot-windows-10-and-linux-ubuntu-on-separate-hard-drives
+) did the trick for me. This was one of the most clearest explanation on this topic, that i could find.**
 
 
 2. **Docker**\
@@ -68,4 +68,4 @@ $ docker login
 </pre>
 
 ### 3. Step How to check whether the installation was successful?
-I would suggest you to create your first submission to make sure everything is set up properly. For this duckietown has a dummy submission that is outside the competitions. Follow the [instractions](https://docs.duckietown.org/DT19/AIDO/out/cm_first.html) to submit.
+I would suggest you to create your first submission to make sure everything is set up properly. For this duckietown has a dummy submission that is outside the competitions. Follow these [instractions](https://docs.duckietown.org/DT19/AIDO/out/cm_first.html) to submit.
