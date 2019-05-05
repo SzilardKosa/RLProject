@@ -4,10 +4,10 @@ This Github repository was created to document the progress with my reinforcemen
 - [x] Creating summary about Duckietown
 - [x] Setting up the environment for Duckietown
 - [x] Getting started with RL
-- [ ] Trying out basic RL algorithms 
-- [ ] Trying out the SAC algorithm for the autonomous driving task
+- [x] Trying out basic RL algorithms 
+- [x] Trying out the SAC algorithm for the autonomous driving task
 - [ ] Implementing SAC in Duckietown
-## How to set up everything for Duckietown
+## How to set up everything for Duckietown (Based on DT18)
 Here is a summary on how to set up everything for duckietown. This summary is based on the [duckietown documentation](https://docs.duckietown.org/DT19/AIDO/out/manual.html). They also have an [interactive tutorials](https://www.duckietown.org/research/ai-driving-olympics/get-started) on their website, where they go through these steps.
 
 ### 1.Step Creating accounts
